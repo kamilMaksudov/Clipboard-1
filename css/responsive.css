@@ -1,0 +1,236 @@
+@media (max-width: 950px) {
+
+  .advantages{
+    grid-gap: 100px;
+  }
+
+  .advantage {
+    padding: 0 0 1rem;
+}
+
+  h3 {
+    padding: 1rem 0 1rem;
+  }
+
+
+  .advantage-ph{
+    width: 65%;
+    padding-top: 0;
+    font-size: 14px;
+  }
+
+  .computer-image img{
+    width: 125%;
+  }
+
+  .clipboard {
+    margin: 100px 0 100px;
+  }
+
+
+
+  .business-partners{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 0 auto;
+    grid-gap: 50px;
+    margin-bottom: 160px;
+  }
+
+
+}
+
+@media (max-width: 850px) {
+
+  h1{
+    width: 60%;
+  }
+
+  .cta-ph, .ph {
+    width: 70%;
+}
+
+  .mn-ph {
+    width: 75%;
+}
+
+  .advantages{
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    text-align: center;
+  }
+
+  .computer-image{
+  }
+
+  .computer-image img{
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .advantages-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  h3 {
+    padding: 3rem 0 1rem;
+    font-size: 28px;
+  }
+
+  .advantage-ph {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.workflow{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.tool{
+  padding-bottom: 50px;
+}
+
+.tool-blacklist {
+    align-content: center;
+}
+
+
+.tool-preview{
+  align-content: center;
+}
+
+.tool-ph {
+    width: 50%;
+}
+
+
+.workflow-ph {
+    width: 100%;
+}
+
+.ft-container {
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.ft-logo{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.contact-us {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.contact-us li{
+  padding-top: 20px;
+
+}
+
+.social-icons{
+  margin-left: 0;
+  grid-column-gap: 30px;
+}
+
+.fab{
+  padding-left:0;
+}
+
+
+}
+
+@media (max-width: 375px) {
+
+
+  header{
+    background-image: url('../images/bg-header-mobile.png');
+
+  }
+
+  .cta-desc {
+    padding: 5rem 0 5rem 0;
+  }
+
+  .hr-logo img {
+    width: 80%;
+  }
+
+  .computer-image img {
+    margin-bottom: 2rem;
+  }
+
+
+  h1{
+    font-size: 1.5rem;
+    width: 85%;
+  }
+
+  h2{
+    font-size: 26px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 20px;
+    padding: 1rem 0 1rem;
+  }
+
+  .buttons{
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .advantage-ph {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .clipboard {
+    margin: 80px 0 80px;
+  }
+
+  .mn-ph {
+    width: 80%;
+    font-size: 14px;
+    padding: 1rem 0 3rem;
+    margin: 0 auto
+  }
+
+  .tool-ph {
+    width: 80%;
+  }
+
+  .workflow{
+    padding-bottom: 30px;
+  }
+
+  .business-partners {
+    grid-row-gap: 30px;
+    margin-bottom: 80px;
+  }
+
+  .business-partners img{
+    width: 40%;
+  }
+
+  .download-clipboard {
+    margin-bottom: 80px;
+  }
+
+  .ft-logo {
+    padding-bottom: 0px;
+  }
+
+}

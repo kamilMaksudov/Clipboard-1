@@ -1,0 +1,293 @@
+@import "https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap";
+
+:root{
+
+  --strong-cyan: hsl(171, 66%, 44%);
+  --strong-cyan-hover: hsl(171, 48%, 55%);
+  --light-blue: hsl(233, 100%, 69%);
+  --light-blue-hover: hsl(233, 71%, 73%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --ft-bg: hsl(0, 0%, 95%);
+  --white: white;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Bai Jamjuree',sans-serif;
+  color: var(--dark-grayish-blue);
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url('../images/bg-header-desktop.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.cta-desc{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+
+  padding:  7rem 0 8.5rem 0;
+}
+
+.hr-logo{
+
+  padding-bottom: 3.125rem;
+}
+
+h1{
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.cta-ph , .ph{
+  color: var(--grayish-blue);
+  width: 43%;
+
+  padding-bottom: 2rem;
+}
+
+.buttons{
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cta-bt{
+  color: var(--white);
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+  padding: 12px 30px;
+  border-radius: 50px;
+  -webkit-box-shadow: 3px 5px 15px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 3px 5px 15px 2px rgba(0,0,0,0.15);
+  box-shadow: 3px 5px 15px 2px rgba(0,0,0,0.15);
+}
+
+.cta-ios{
+  background-color: var(--strong-cyan);
+
+}
+
+.cta-ios:hover{
+  background-color: var(--strong-cyan-hover);
+  cursor: pointer;
+}
+
+.cta-mac{
+  background-color: var(--light-blue);
+}
+
+.cta-mac:hover{
+  background-color: var(--light-blue-hover);
+  cursor: pointer;
+}
+
+
+.track-desc{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h2{
+  font-size: 28px;
+}
+
+.mn-ph{
+  color: var(--grayish-blue);
+  width: 48%;
+  padding: 1rem 0 6rem;
+}
+
+.advantages{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+
+.computer-image img{
+  margin-left: -70px;
+}
+
+.advantages-text{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.advantage{
+  padding: 0 0 3rem;
+}
+
+.advantage-ph{
+  color: var(--grayish-blue);
+  width: 65%;
+  padding-top: 10px;
+}
+
+.clipboard{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 160px 0 100px;
+  text-align: center;
+}
+
+.clipboard img{
+      width: 70%;
+}
+
+.workflow{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 130px 1fr;
+  text-align: center;
+
+  padding-bottom: 160px;
+}
+
+.workflow-desc{
+  grid-column: 1 / 4;
+}
+
+
+.tool{
+  grid-row: 2/3;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-blacklist{
+
+  grid-column: 1/2;
+  align-content: flex-end;
+}
+
+.tool-text{
+  grid-column: 2/3;
+}
+
+
+.tool-preview{
+  grid-column: 3/4;
+  align-content: flex-start;
+}
+
+.workflow-ph{
+  width: 100%;
+}
+
+h3{
+  padding: 2rem 0 1rem;
+}
+
+.tool-ph{
+  color: var(--grayish-blue);
+  width: 75%;
+}
+
+.business-partners{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: 0 auto;
+  justify-items: center;
+  width: 80%;
+
+  margin-bottom: 160px;
+}
+
+.download-clipboard{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 160px;
+}
+
+.download-clipboard-ph{
+  width: 46%;
+  padding: 1rem 0 3rem;
+}
+
+footer{
+  padding: 30px 0;
+
+  background-color: var(--ft-bg);
+}
+
+.ft-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.ft-logo img{
+  width: 50%;
+}
+
+.contact-us{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 100px;
+}
+
+.order-1{
+  grid-area: 2/1/3/2;
+}
+
+.order-3{
+  grid-area: 2/2/3/3;
+}
+
+.contact-us a:hover{
+  color: var(--strong-cyan);
+}
+
+.social-icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  list-style: none;
+  color: var(--grayish-blue);
+  margin-left: 5rem;
+}
+
+
+.fab{
+  font-size: 1.5rem;
+}
+
+.fa-facebook-square:hover, .fa-twitter:hover, .fa-instagram:hover{
+  color: var(--strong-cyan);
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
